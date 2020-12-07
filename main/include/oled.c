@@ -171,7 +171,7 @@ void oled_init(void)
     oled_write_cmd(0X40);
      //设置对比度  
     oled_write_cmd(0X81);
-    oled_write_cmd(0XFF);//这个值越大，屏幕越亮(和上条指令一起使用)(0x00-0xff) 
+    oled_write_cmd(0XA0);//这个值越大，屏幕越亮(和上条指令一起使用)(0x00-0xff) 
 
     oled_write_cmd(0XA1);//0xA1: 左右反置，  0xA0: 正常显示（默认0xA0）
    //0xA6: 表示正常显示（在面板上1表示点亮，0表示不亮）  

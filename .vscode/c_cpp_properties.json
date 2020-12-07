@@ -17,7 +17,7 @@
                 ],
                 "limitSymbolsToIncludedHeaders": false
             },
-            "compileCommands": "${workspaceFolder}/build/compile_commands.json"
+            "compileCommands": "D:/proj-20190610/proj/esp32-idf/hello_world/build/compile_commands.json"
         }
     ],
     "version": 4

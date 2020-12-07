@@ -26,9 +26,9 @@ void app_main()
     // while(1)
     //     {
     //     cnt++;
-        oled_clear();
+        // oled_clear();
     //     vTaskDelay(10 / portTICK_PERIOD_MS);
-        oled_all_on();
+        // oled_all_on();
     //     vTaskDelay(10 / portTICK_PERIOD_MS);
     //     ESP_LOGI("OLED", "cnt = %d \r\n", cnt);
     // }
